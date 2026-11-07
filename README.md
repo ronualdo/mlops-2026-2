@@ -241,7 +241,3 @@ Campos do corpo do `POST /predictions`: `text` (a mensagem, obrigatória e não 
 
 - `.env` nunca é commitado. Se uma chave vazar (em um commit, print ou mensagem), **revogue-a imediatamente** no W&B (User Settings → API Keys) ou no Atlas (troque a senha do usuário).
 - O arquivo `.env.example` guarda apenas **nomes** de variáveis e valores fictícios.
-
-## Próximos passos
-
-Empacotar a API em um container **Docker**, para rodar em qualquer máquina sem montar o ambiente conda à mão.
